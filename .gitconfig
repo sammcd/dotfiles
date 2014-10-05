@@ -1,0 +1,18 @@
+[user]
+	name = Sam McDonald
+  email = sam@sammcd.com
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  up = pull --rebase
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[apply]
+  whitespace = nowarn
+[merge]
+  tool = kdiff3
+[difftool]
+  prompt = false
+[push]
+  default = current
