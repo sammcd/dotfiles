@@ -1,6 +1,6 @@
 # ~sammcd
 
-Inspired by [Sam Soffes](https://github.com/samsoffes/dotfiles)
+Inspired by [Sam Soffes](https://github.com/soffes/dotfiles)
 
 ## Environment
 
