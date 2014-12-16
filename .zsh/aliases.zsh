@@ -15,3 +15,4 @@ alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/R
 
 # Xcode
 alias ox='open *.xcodeproj' # This override X Window stuff, but who cares
+alias ow='open *.xcworkspace' # This override X Window stuff, but who cares
