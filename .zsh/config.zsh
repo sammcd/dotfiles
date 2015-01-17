@@ -2,13 +2,17 @@
 export EDITOR='vim'
 
 # Paths
-export PATH="./bin:$HOME/bin:/usr/local/bin:$PATH"
+export PATH="./bin:$HOME/bin:/usr/local/bin:~/.rbenv/bin:$PATH"
 
 # Colors
 export CLICOLOR=1
 autoload colors; colors;
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 setopt PROMPT_SUBST
+
+# RENV
+export PATH="$HOME/.rbenv/bin:/usr/local/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Timer
 REPORTTIME=10 # print elapsed time when more than 10 seconds
