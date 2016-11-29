@@ -14,6 +14,11 @@ setopt PROMPT_SUBST
 export PATH="$HOME/.rbenv/bin:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
 
+# Android
+export PATH=~/Library/Android/sdk/tools:$PATH
+export PATH=~/Library/Android/sdk/platform-tools:$PATH
+
+
 # Timer
 REPORTTIME=10 # print elapsed time when more than 10 seconds
 
