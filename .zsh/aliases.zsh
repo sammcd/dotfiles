@@ -1,12 +1,6 @@
-# cd
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ,,='cd ..'
-alias ,,,='cd ../..'
-
 # Git
 alias gsu='git submodule update --init --recursive'
-alias gs='git status'
+alias gs='git status -s'
 compdef _git gs=git-status
 
 # Mac OS X
