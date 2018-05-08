@@ -2,6 +2,8 @@
 
 Inspired by [Sam Soffes](https://github.com/soffes/dotfiles)
 
+
+
 ## Environment
 
 I am running on Mac OS X. You'll need to switch to ZSH with the following command:
